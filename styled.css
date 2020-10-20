@@ -21,4 +21,5 @@ button {
 }
 .avatar {
     height: 40px;
+    width: auto;
 }
