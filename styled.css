@@ -8,24 +8,35 @@ header {
     background-color: white;
 }
 .logo {
-    display: block;
+    display: inline-block;
     margin-left:0;
     height: 40px;
 }
 .search-bar {
-    display: block;
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
+    width: 350px;
     height: 40px;
+
 }
 button {
-    display: block;
+    display: inline-block;
     background-color: white;
     height: 40px;
 }
 .avatar {
-    display: block;
+    display: inline-block;
     margin-right: 0;
     height: 40px;
 } 
+.menu {
+    display: inline-block;
+    margin-right: 0;
+    height: 40px;
+}
+.upload {
+    display: inline-block;
+    margin-right: 0;
+    height: 40px;
+}
