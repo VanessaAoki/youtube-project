@@ -4,22 +4,29 @@ header {
 }
 .logo {
     margin-left:0; 
-    margin top: 5%;
+    margin-top: 5%;
     size: 15px;
     width: 13%;
     height: 50%;
 }
 .search-bar {
-    size: 15px;
-    width: 40%;
-    height: 13%
+    size: 10px;
+    width: 20%;
+    height: 10%;
 }
 button {
-    size: 15px;
+    size: 10px;
     width: 10%;
     height: 20%;
 }
-.avatar {
-    height: 40px;
-    width: auto;
+.search-icon {
+    size: 2px;
+    width: 20%;
+    height: 10%;
 }
+
+.avatar {
+    size: 5px;
+    width: 2%;
+    height: 2%;
+} 
