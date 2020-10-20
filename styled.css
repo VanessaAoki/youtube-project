@@ -1,0 +1,22 @@
+header {
+    display: inline;
+    background-color: white;
+}
+.logo {
+    margin-left:0; 
+    margin top: 5%;
+    size: 15px;
+    width: 13%;
+    height: 50%;
+}
+.search-bar {
+    size: 15px;
+    width: 40%;
+    height: 13%
+}
+button {
+    size: 15px;
+    width: 10%;
+    height: 20%;
+}
+.
