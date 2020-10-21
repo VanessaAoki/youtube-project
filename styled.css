@@ -1,47 +1,56 @@
 html, body {
-    width: 100%;
+    width: 1060px;
     height: auto;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(235, 233, 233);
 }
 header {
-    padding-top: 50px;
-    padding-bottom: 80px
-    display: inline;
     background-color: white;
     white-space: nowrap;
+    height: 50px;
+    width: 1060px;
+    position: relative;
 }
 .logo {
-    display: inline-block;
-    margin-left:0;
-    height: 40px;
+    position: relative;
+    margin-left:10px;
+    margin-top: 10px;
+    height: 30px;
 }
 .search-bar {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;
+    left: 305px;
+    margin-top: 7px;
     width: 350px;
-    height: 40px;
+    height: 30px;
 }
 button {
-    display: inline-block;
+    position: absolute;
+    margin-top: 7px;
+    left: 680px;
     background-color: white;
-    height: 40px;
+    height: 30px;
+    width: 80px;
 }
-.avatar {
-    display: inline-block;
-    margin-right: 0;
-    height: 40px;
-} 
+.search-img {
+    height: 20px;
+}
 .menu {
     display: inline-block;
-    margin-right: 0;
-    height: 40px;
+    height: 30px;
+    float: right;
 }
 .upload {
     display: inline-block;
-    margin-right: 0;
-    height: 40px;
+    height: 30px;
+    float: right;
+}
+.avatar {
+    display: inline-block;
+    height: 30px;
+    float: right;
+    padding-right: 10px;
+    
 }
 .video {
     display: inline-block;
@@ -56,7 +65,6 @@ iframe {
     box-shadow: 2px 1px 4px darkgray;
     background-color: white;
     width: 600px;
-    margin-top: 0;
 }
 .video-title {
     font-size: 20px;
@@ -68,20 +76,17 @@ iframe {
 }
 .sidebar {
     display: inline-block;
-    position: fixed;
+    position: absolute;
     box-shadow: 2px 1px 4px darkgray;
     background-color: white;
-    width: 330px;
+    width: 400px;
     margin-left: 30px;
-    border left: 20px
-    margin-top: 30px;
+    border-left: 20px;
+    border-top: 60px;
 }
 .recommended-video-box {    
     width: 260px;
     padding-left: 30px;
     box-shadow:darkgray;
     background-color: white;
-}
-.recommended-title {
-    font-weight: bold;
 }
