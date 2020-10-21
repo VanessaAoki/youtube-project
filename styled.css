@@ -1,11 +1,14 @@
 html, body {
     width: 100%;
     height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
 }
 header {
     padding-top: 20px;
     display: inline;
     background-color: white;
+    white-space: nowrap;
 }
 .logo {
     display: inline-block;
@@ -39,4 +42,14 @@ button {
     display: inline-block;
     margin-right: 0;
     height: 40px;
+}
+.video {
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.video-text {
+    border
+}
+.video-title {
+    
 }
