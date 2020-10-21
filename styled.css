@@ -22,7 +22,6 @@ header {
     margin-right: auto;
     width: 350px;
     height: 40px;
-
 }
 button {
     display: inline-block;
@@ -45,8 +44,12 @@ button {
     height: 40px;
 }
 .video {
-    padding-left: 100px;
-    padding-top: 100px;
+    display: inline-block;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+iframe {
+    box-shadow: 2px 1px 4px darkgray;
 }
 .video-text {
     box-shadow: 2px 1px 4px darkgray;
@@ -54,9 +57,27 @@ button {
     width: 560px;
 }
 .video-title {
-    
+    font-size: 20px;
 }
-.avatar2 {rder: .5px solid darkslategrey;
+.avatar2 {
     display: inline-block;
     margin-right: 0;
-    height: 50px;50px
+    height: 50px;
+}
+.sidebar {
+    display: inline-block;
+    position: fixed;
+    box-shadow: 2px 1px 4px darkgray;
+    background-color: white;
+    width: 330px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.recommended-video-box {    
+    width: 260px;
+    box-shadow:darkgray;
+    background-color: white;
+}
+.recommended-title {
+    font-weight: bold;
+}
