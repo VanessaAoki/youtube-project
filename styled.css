@@ -2,10 +2,11 @@ html, body {
     width: 100%;
     height: auto;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: lightgray;
+    background-color: rgb(235, 233, 233);
 }
 header {
-    padding-top: 20px;
+    padding-top: 50px;
+    padding-bottom: 80px
     display: inline;
     background-color: white;
     white-space: nowrap;
@@ -48,8 +49,14 @@ button {
     padding-top: 100px;
 }
 .video-text {
-    border
+    box-shadow: 2px 1px 4px darkgray;
+    background-color: white;
+    width: 560px;
 }
 .video-title {
     
 }
+.avatar2 {rder: .5px solid darkslategrey;
+    display: inline-block;
+    margin-right: 0;
+    height: 50px;50px
