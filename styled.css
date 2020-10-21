@@ -7,7 +7,7 @@ html, body {
 header {
     background-color: white;
     white-space: nowrap;
-    height: 50px;
+    height: 80px;
     width: 1060px;
     position: relative;
 }
@@ -19,21 +19,22 @@ header {
 }
 .search-bar {
     position: absolute;
-    left: 305px;
-    margin-top: 7px;
+    left: 310px;
+    margin-top: 20px;
     width: 350px;
     height: 30px;
 }
 button {
     position: absolute;
-    margin-top: 7px;
-    left: 680px;
+    margin-top: 24px;
+    left: 669px;
     background-color: white;
     height: 30px;
     width: 80px;
 }
 .search-img {
     height: 20px;
+
 }
 .menu {
     display: inline-block;
@@ -46,7 +47,7 @@ button {
     float: right;
 }
 .avatar {
-    display: inline-block;
+
     height: 30px;
     float: right;
     padding-right: 10px;
@@ -69,6 +70,18 @@ iframe {
 .video-title {
     font-size: 20px;
 }
+.recommended-title {
+    font-weight: bold;
+    align-content: left;
+    margin-top: 0;
+    
+}
+.recommended-text {
+    position: relative;
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 20px;
+}
 .avatar2 {
     display: inline-block;
     margin-right: 0;
@@ -76,7 +89,7 @@ iframe {
 }
 .sidebar {
     display: inline-block;
-    position: absolute;
+    position: fixed;
     box-shadow: 2px 1px 4px darkgray;
     background-color: white;
     width: 400px;
@@ -84,9 +97,13 @@ iframe {
     border-left: 20px;
     border-top: 60px;
 }
-.recommended-video-box {    
+.recommended-video-box {
+    display: inline-block;   
     width: 260px;
     padding-left: 30px;
     box-shadow:darkgray;
     background-color: white;
+}
+span {
+    vertical-align: middle;
 }
