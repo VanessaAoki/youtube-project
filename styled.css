@@ -77,15 +77,18 @@ iframe {
 }
 .recommended-video {
     position: absolute;
+    margin-left: -20px;
 }
 .recommended-title {
     font-weight: bold;
     align-content: left;
     margin-top: 0;
+    margin-bottom: 20px;
 }
 .recommended-text {
     position: absolute;
-    margin-left: 200px;
+    margin-left: 155px;
+    padding-bottom: 10px;
 }
 .avatar2 {
     display: inline-block;
@@ -110,6 +113,6 @@ iframe {
     box-shadow:darkgray;
     background-color: white;
 }
-span {
-    text-align: center;
+p {
+    margin: 0px;
 }
