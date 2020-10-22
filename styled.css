@@ -107,7 +107,35 @@ iframe {
     margin-left: 10px;
     margin-top: 10px;
 }
-.recommended-video-box {
+.recommended-video-box1 {
+    width: 260px;
+    padding-left: 30px;
+    box-shadow:darkgray;
+    background-color: white;
+}
+.recommended-video-box2 {
+    padding-top: 120px;
+    width: 260px;
+    padding-left: 30px;
+    box-shadow:darkgray;
+    background-color: white;
+}
+.recommended-video-box3 {
+    padding-top: 120px;
+    width: 260px;
+    padding-left: 30px;
+    box-shadow:darkgray;
+    background-color: white;
+}
+.recommended-video-box4 {
+    padding-top: 120px;
+    width: 260px;
+    padding-left: 30px;
+    box-shadow:darkgray;
+    background-color: white;
+}
+.recommended-video-box5 {
+    padding-top: 120px;
     width: 260px;
     padding-left: 30px;
     box-shadow:darkgray;
