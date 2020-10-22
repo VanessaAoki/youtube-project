@@ -6,7 +6,7 @@ html, body {
     max-width: 1060px;
     margin: 0 auto;
 }
-header {
+.navbar {
     background-color: #ffffff;
     box-shadow: 2px 1px 4px #a9a9a9;
     white-space: nowrap;
