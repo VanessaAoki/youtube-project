@@ -45,8 +45,7 @@ git clone https://github.com/VanessaAoki/youtube-project
 👤 **Angela Cuahutle**
 
 - GitHub: [@angelacuahutle](https://github.com/angelacuahutle)
-- Twitter:
-- Linkedin:
+- Twitter: [@AngelaCunaDev](https://twitter.com/AngelaCunaDev)
 
 ## 🤝 Contributing
 
@@ -60,5 +59,5 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/elberthcorniell/Youtube-Clone/blob/video-frame/LICENSE.md) licensed.
+This project is [MIT](https://github.com/VanessaAoki/youtube-project/blob/feature/LICENSE.txt) licensed.
 

@@ -15,10 +15,15 @@ html, body {
     width: 1060px;
     position: relative;
 }
+.menu {
+    margin-top: 20px;
+    height: 44px;
+    float: left;
+}
 .logo {
     position: relative;
-    margin-left:10px;
-    margin-top: 25px;
+    margin-left: 0;
+    margin-top: 27px;
     height: 30px;
 }
 .search-bar {
@@ -42,19 +47,26 @@ button {
 .search-img {
     height: 18px;
 }
-.menu {
-    margin-top: 20px;
+.upload {
+    margin-top: 27px;
     height: 30px;
     float: right;
 }
-.upload {
+.apps {
     margin-top: 20px;
-    height: 30px;
+    height: 45px;
     float: right;
+    padding-right: 0;
+}
+.camera {
+    margin-top: 20px;
+    height: 45px;
+    float: right;
+    padding-right: 10px;
 }
 .avatar {
-    margin-top: 20px;
-    height: 30px;
+    margin-top: 24px;
+    height: 35px;
     float: right;
     padding-right: 10px;
 }
@@ -162,6 +174,11 @@ p {
     margin-top: 20px;
     margin-bottom: 18px;
     margin-left: 15px;
+}
+.autoplay {
+    position: absolute;
+    padding-top: 15px;
+    padding-left: 270px;
 }
 .avatar-name {
     position: absolute;
