@@ -3,16 +3,27 @@ html, body {
     background-color: #ebe9e9;
 }
 #wrapper {
-    max-width: 1060px;
-    max-height: 800px;
-    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 1060px;
+}
+.sidebar {
+    display: inline-block;
+    position: absolute;
+    box-shadow: 2px 1px 4px #a9a9a9;
+    background-color: #ffffff;
+    width: 23%;
+    height: 650px;
+    right: 8px;
+    top: 100px;
 }
 .navbar {
     background-color: #ffffff;
     box-shadow: 2px 1px 4px #a9a9a9;
     white-space: nowrap;
     height: 80px;
-    width: 1060px;
+    width: 100%;
+    min-width: 1060px;
     position: relative;
 }
 .menu {
@@ -28,21 +39,22 @@ html, body {
 }
 .search-bar {
     position: absolute;
-    left: 262px;
+    margin-left: 12%;
     margin-top: 24px;
-    width: 500px;
+    width: 45%;
     height: 30px;
     border: 1px solid #a9a9a9;
+    padding-left: 10px;
 }
 button {
     position: absolute;
     margin-top: 24px;
-    left: 760px;
+    left: 67%;
     background-color: #ffffff;
     height: 33.5px;
-    width: 80px;
+    width: 100px;
     border: 1px solid #a9a9a9;
-    border-radius: 10%;
+    border-radius: 5px;
 }
 .search-img {
     height: 18px;
@@ -73,17 +85,29 @@ button {
 .video {
     display: inline-block;
     padding-left: 0;
-    padding-top: 10px;
+    padding-top: 12px;
+    width: 76%;
+    height: 90%;
+    min-width: 630px;
+    min-height: 315px;
+}
+.video-container {
+    padding-bottom: 56.25%;
+    position: relative;
 }
 iframe {
+    position: absolute;
     box-shadow: 2px 1px 4px #a9a9a9;
-
+    min-width: 630px;
+    min-height: 315px;
+    width: 100%;
+    height: 100%;
 }
 .video-text {
     box-shadow: 2px 1px 4px #a9a9a9;
     background-color: #ffffff;
-    width: 628px;
-    margin-top: 5px;
+    width: 100%;
+    margin-top: 14px;
     height: 170px;
     padding-left: 2px;
 }
@@ -120,16 +144,7 @@ iframe {
     height: 60px;
     padding-top: 15px;
 }
-.sidebar {
-    display: inline-block;
-    position: absolute;
-    box-shadow: 2px 1px 4px #a9a9a9;
-    background-color: #ffffff;
-    width: 420px;
-    height: 650px;
-    margin-left: 10px;
-    margin-top: 10px;
-}
+
 .recommended-video-box1 {
     width: 260px;
     padding-left: 30px;
@@ -178,7 +193,7 @@ p {
 .autoplay {
     position: absolute;
     padding-top: 15px;
-    padding-left: 270px;
+    padding-left: 60%;
 }
 .avatar-name {
     position: absolute;
@@ -189,7 +204,7 @@ p {
 }
 .view-number {
     margin-top: 50px;
-    padding-left: 515px;
+    padding-left: 85%;
     color: #a9a9a9;
 }
 .share-button {
@@ -205,7 +220,7 @@ p {
 .like-dislike {
     position: absolute;
     margin-top: 10px;
-    margin-left: 480px;
+    margin-left: 62%;
 }
 .more {
     position: absolute;
