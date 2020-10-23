@@ -4,6 +4,7 @@ html, body {
 }
 #wrapper {
     max-width: 1060px;
+    max-height: 800px;
     margin: 0 auto;
 }
 .navbar {

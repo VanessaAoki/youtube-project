@@ -1,10 +1,8 @@
 # Youtube Clone Page
 
-> This project consists of building an HTML document that matches the appearance of youtube video player page.
+> This project consists of building an HTML document that matches the appearance of [youtube video player page](http://archive.vn/Bss88).
 
 ![screenshot](./style/images/Screenshot.png)
-
-Additional description about the project and its features.
 
 ## Built With
 
@@ -28,7 +26,7 @@ To get a local copy up and running follow these simple example steps.
 
 1- Clone the repository
 ```
-git clone https://github.com/elberthcorniell/Youtube-Clone.git
+git clone https://github.com/VanessaAoki/youtube-project
 ```
 
 2- Open the folder on VS Code, right click the index.html file and click on "Open With Live Server"
@@ -41,16 +39,20 @@ git clone https://github.com/elberthcorniell/Youtube-Clone.git
 👤 **Vanessa Aoki**
 
 - GitHub: [@VanessaAoki](https://github.com/VanessaAoki)
+- Twitter: [@VanessaSAoki](https://twitter.com/VanessaSAoki)
+- Linkedin: [Vanessa Aoki](https://www.linkedin.com/in/vanessasaoki/)
 
 👤 **Angela Cuahutle**
 
 - GitHub: [@angelacuahutle](https://github.com/angelacuahutle)
+- Twitter:
+- Linkedin:
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/VanessaAoki/youtube-project/issues).
 
 ## Show your support
 
