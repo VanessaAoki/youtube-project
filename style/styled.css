@@ -1,0 +1,233 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ebe9e9;
+}
+#wrapper {
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 1060px;
+}
+.sidebar {
+    display: inline-block;
+    position: absolute;
+    box-shadow: 2px 1px 4px #a9a9a9;
+    background-color: #ffffff;
+    width: 23%;
+    height: 650px;
+    right: 8px;
+    top: 100px;
+}
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 2px 1px 4px #a9a9a9;
+    white-space: nowrap;
+    height: 80px;
+    width: 100%;
+    min-width: 1060px;
+    position: relative;
+}
+.menu {
+    margin-top: 20px;
+    height: 44px;
+    float: left;
+}
+.logo {
+    position: relative;
+    margin-left: 0;
+    margin-top: 27px;
+    height: 30px;
+}
+.search-bar {
+    position: absolute;
+    margin-left: 12%;
+    margin-top: 24px;
+    width: 45%;
+    height: 30px;
+    border: 1px solid #a9a9a9;
+    padding-left: 10px;
+}
+button {
+    position: absolute;
+    margin-top: 24px;
+    left: 67%;
+    background-color: #ffffff;
+    height: 33.5px;
+    width: 100px;
+    border: 1px solid #a9a9a9;
+    border-radius: 5px;
+}
+.search-img {
+    height: 18px;
+}
+.upload {
+    margin-top: 27px;
+    height: 30px;
+    float: right;
+}
+.apps {
+    margin-top: 20px;
+    height: 45px;
+    float: right;
+    padding-right: 0;
+}
+.camera {
+    margin-top: 20px;
+    height: 45px;
+    float: right;
+    padding-right: 10px;
+}
+.avatar {
+    margin-top: 24px;
+    height: 35px;
+    float: right;
+    padding-right: 10px;
+}
+.video {
+    display: inline-block;
+    padding-left: 0;
+    padding-top: 12px;
+    width: 76%;
+    height: 90%;
+    min-width: 630px;
+    min-height: 315px;
+}
+.video-container {
+    padding-bottom: 56.25%;
+    position: relative;
+}
+iframe {
+    position: absolute;
+    box-shadow: 2px 1px 4px #a9a9a9;
+    min-width: 630px;
+    min-height: 315px;
+    width: 100%;
+    height: 100%;
+}
+.video-text {
+    box-shadow: 2px 1px 4px #a9a9a9;
+    background-color: #ffffff;
+    width: 100%;
+    margin-top: 14px;
+    height: 170px;
+    padding-left: 2px;
+}
+.video-title {
+    font-size: 20px;
+    margin-top: 2px;
+    padding-top: 25px;
+    padding-left: 10px;
+    margin-bottom: 2px;
+}
+.recommended-video {
+    position: absolute;
+    margin-left: -20px;
+}
+.recommended-title {
+    font-weight: bold;
+    align-content: left;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: black;
+}
+.recommended-text {
+    position: absolute;
+    margin-left: 155px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    color: grey;
+}
+.avatar2 {
+    position: absolute;
+    margin-right: 0;
+    padding-left: 10px;
+    height: 60px;
+    padding-top: 15px;
+}
+
+.recommended-video-box1 {
+    width: 260px;
+    padding-left: 30px;
+    box-shadow:darkgray;
+    background-color: white;
+}
+.recommended-video-box2 {
+    padding-top: 120px;
+    width: 260px;
+    padding-left: 30px;
+    box-shadow:#a9a9a9;
+    background-color: #ffffff;
+}
+.recommended-video-box3 {
+    padding-top: 120px;
+    width: 260px;
+    padding-left: 30px;
+    box-shadow:#a9a9a9;
+    background-color: #ffffff;
+}
+.recommended-video-box4 {
+    padding-top: 120px;
+    width: 260px;
+    padding-left: 30px;
+    box-shadow:#a9a9a9;
+    background-color: #ffffff;
+}
+.recommended-video-box5 {
+    padding-top: 120px;
+    width: 260px;
+    padding-left: 30px;
+    box-shadow:#a9a9a9;
+    background-color: #ffffff;
+}
+p {
+    margin: 0;
+}
+.upnext {
+    font-weight: bold;
+    font-size: 15px;
+    align-content: left;
+    margin-top: 20px;
+    margin-bottom: 18px;
+    margin-left: 15px;
+}
+.autoplay {
+    position: absolute;
+    padding-top: 15px;
+    padding-left: 60%;
+}
+.avatar-name {
+    position: absolute;
+    margin-left: 82px;
+    margin-top: 15px;
+    color: #7e7777;
+    font-size: 15px;
+}
+.view-number {
+    margin-top: 50px;
+    padding-left: 85%;
+    color: #a9a9a9;
+}
+.share-button {
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 80px;
+}
+.subscribe {
+    position: absolute;
+    margin-left: 82px;
+    margin-top: -24px;
+}
+.like-dislike {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 62%;
+}
+.more {
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 165px;
+}
+.add {
+    position: absolute;
+    margin-top: 17px;
+}
